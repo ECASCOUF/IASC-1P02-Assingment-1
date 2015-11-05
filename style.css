@@ -1,0 +1,40 @@
+.header{
+  background-color: blue;
+  color:white;
+  font-size: 40;
+  position:fixed;
+  width: 1000;
+  height: 50;
+  margin: 20;
+  padding:5;
+  font-family: "Arial", Times, serif;
+  font-weight: bold;
+  z-index: 3;
+  border: 10px solid navy;
+}
+
+.absolutepicture{
+  position: absolute;
+  left: 1000px;
+    z-index: 2;
+}
+.relativepicture{
+  position: relative;
+  left: 140px;
+    z-index: 1;
+
+.changecolor{
+  color: red;
+}
+
+.changefont{
+  font-family: "Arial", Times, serif;
+}
+
+.div1 ul{
+  text-transform: uppercase;
+  }
+
+.changecolor, .changefont{
+  font-size: 25;
+}
